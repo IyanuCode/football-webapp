@@ -1,0 +1,169 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.pink{
+    color: #ff4500;
+}
+.landingPageContainer{
+    background-image: url(./img/football.jpg);
+    background-repeat: none;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    color: white;    
+}
+
+.landingPage hr{
+    width: 20px;
+}
+.landingPage{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 20% 0;
+    font-size: 20px;
+}
+.landingPageContent{
+    padding:0 30%;
+    margin: 5% 0;
+    /* line-height: 60px; */
+}
+.landingPageContent h3{
+    font-size: 2em;
+    font-weight: bold;
+}
+.landingPageContent p{
+    font-size: 1.2em;
+    font-weight: normal;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.landingPageContent button{
+    padding: 4px;
+    margin: 5px;
+    font-size: 20px;
+    color: white;
+    border-radius: 5px;
+}
+.firstBtn{
+    background-color: transparent;
+    outline: 2px solid white;
+    border: none;
+    
+}
+.secondBtn{
+    background-color: #ff4500;
+    border: none;
+}
+.small{
+    font-size: 5px ;
+}
+.navBtn ul{
+    display: flex;
+    gap: 15px;
+}
+
+
+.navBtn a{
+    color: white;
+}
+
+ li:last-child{
+    color:green
+}
+/* Featured Styling */
+
+.featuredLandingPage{
+    display: flex;
+    margin-left: 25%;
+}
+.featuredHeader{
+    text-align: center;
+    margin: 0 25% 40px;
+}
+.right img{
+    width: 300px;
+    height: 450px;
+    padding: 20px;
+}
+.left h3{
+    font-size: 50px;
+}
+/* App Download Styling */
+.appDownloadContainer{
+    background-color: rgb(150, 32, 52);
+    height:60vh;
+    text-align: center;
+    color: white;
+    padding: 3% 0;
+    line-height: 70px;
+}
+
+.appDownloadContainer hr{
+    width:120px;
+    margin-left: 45%;
+}
+.appDownloadContainer h3{
+    font-size: 35px;
+}
+.appDownloadContainer button{
+    background-color: rgb(150, 32, 52);
+    margin:10px;
+    padding: 15px 35px;
+    color: white;
+    border: 3px solid white;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+/* Subscribe Styling */
+.subscribeContainer{
+    text-align: center;
+    background-image: url(./img/boot.jpg);
+    height: 60vh;
+    background-repeat: none;
+    background-position: center center;
+    background-size: cover;
+    color: white;
+    padding: 5% 0;
+}
+input[type=email]{
+    padding: 8px;
+    width:36%;
+    background-color: transparent;
+    border: 2px solid white;
+    border-right: none;
+}
+input[type = submit]{
+    padding:8px;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    border-left: none;
+}
+.subscribeContainer h2{
+    font-size: 2em;
+}
+/* .center{
+    margin: 40px;
+} */
+/* Footer Styling */
+.footerContainer{
+    background-color: rgba(43, 20, 4, 0.856);
+    height: 40vh;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 5% 18%;
+    font-size: 12px;
+    
+}
+.footerContainer a{
+    color: white;
+
+}
+.icons{
+    margin-top: 30px;
+}
